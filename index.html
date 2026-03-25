@@ -10,9 +10,16 @@
     if ('serviceWorker' in navigator) {
       navigator.serviceWorker.register('sw.js');
     }
-    // Redirigir a tu app de Google al instante
-    window.location.replace("https://script.google.com/macros/s/AKfycbxeE79ruPienKv5j_L8ilxZQzfUx50OSbtRv1XufucU/exec");
   </script>
+  <style>
+    body { background-color: #003366; color: white; font-family: sans-serif; display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh; margin: 0; text-align: center; }
+    .btn { background-color: #2ECC71; color: white; padding: 15px 30px; text-decoration: none; border-radius: 8px; font-weight: bold; font-size: 18px; margin-top: 20px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+  </style>
 </head>
-<body style="background-color: #003366;"></body>
+<body>
+  <h1>Cash Connect</h1>
+  <p>Instala esta app desde el menú (⋮) de tu navegador<br>para una mejor experiencia.</p>
+  
+  <a href="https://script.google.com/macros/s/AKfycbxeE79ruPienKv5j_L8ilxZQzfUx50OSbtRv1XufucU/exec" class="btn">Entrar al Sistema</a>
+</body>
 </html>
