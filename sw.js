@@ -1,4 +1,4 @@
-const CACHE_NAME = 'cash-connect-v1';
+const CACHE_NAME = 'cash-connect-v2';
 const ASSETS = [
   '/',
   '/index.html',
